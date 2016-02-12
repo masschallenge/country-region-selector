@@ -1,9 +1,7 @@
 ## Country-Region-Selector
 
-A common feature you see in forms is a connected country and region dropdown, where the region field is updated to 
-show the appropriate list of regions (provinces, states, etc) as the user selects a country. Although it's very
-to code this, it requires a lot of leg work tracking down the data and hooking it all up. This script lets you easily
-add this feature to your form without having to write any code.
+A feature you often need in forms is a connected country and region dropdown, where once the user selects a country, the region field gets updated to show the list of regions (provinces/states/counties etc.) relevent for their choice.
+Although it's very easy to code this, it requires leg work tracking down the raw data and hooking it all up. This script lets you easily add this feature to your form without having to write any code.
 
 It comes in two flavours, both about **60KB**.
 - [standalone script](https://github.com/benkeen/country-region-selector/tree/master/dist/crs.min.js) (no dependencies, just plain JS)
