@@ -1,15 +1,15 @@
 ## Country-Region-Selector
 
-A feature you often need in forms is a connected country and region dropdown, where once the user selects a country, the region field gets updated to show the list of regions (provinces/states/counties etc.) relevent for their choice.
-Although it's very easy to code this, it requires leg work tracking down the raw data and hooking it all up. This script lets you easily add this feature to your form without having to write any code.
+A feature you often need in forms is a connected country and region dropdown, where once the user selects a country, the region field gets updated to show the appropriate list of regions (provinces/states/counties etc). It's very easy to code all this, but it's kind of pain having to track down all the raw country-region data.
 
-It comes in two flavours, both about **60KB**.
+That's what this script does. It lets you add this feature to your form without having to write any code or spend mind-numbing hours on Wikipedia downloading and formatting the data. I did that. It wasn't pretty.
+
+The script comes in two flavours, both about **60KB**.
 - [standalone script](https://github.com/benkeen/country-region-selector/tree/master/dist/crs.min.js) (no dependencies, just plain JS)
 - a [jQuery-dependent version](https://github.com/benkeen/country-region-selector/tree/master/dist/jquery.crs.min.js) (ever-so slightly smaller)
 
 The reason the files are so large is that they contain all the country and region strings. If you know you're only going
-to need a small subset of all countries, you can generate a custom build containing only that info. That will substantially
-reduce the file size. See the Custom Builds section at the bottom of this page.
+to need a small subset of all countries, you can generate a custom build containing only that info. That will substantially reduce the file size. See the Custom Builds section at the bottom of this page for more info on that.
 
 
 ### Features
